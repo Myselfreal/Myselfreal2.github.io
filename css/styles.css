@@ -1,0 +1,36 @@
+.header {
+    background-color: #333;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    margin-top: 80px;
+    width: 100%;
+    height: 100%;
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.text-over {
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.text-over h2,
+.text-over p {
+    z-index: 0;
+    color: #fff;
+}
